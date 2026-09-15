@@ -185,6 +185,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height
 
 .mobile-menu {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
   flex-direction: column;
   gap: 4px;
   background: var(--color-bg);
@@ -759,7 +763,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height
    ========================================================================== */
 @media (max-width: 960px) {
   .split-inner,
-  .stats-inner {
+  .stats-inner,
+  .split-reverse .split-inner {
     grid-template-columns: 1fr;
   }
   .split-reverse .split-inner .split-media { order: -1; }
@@ -774,7 +779,11 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height
   .nav-left, .nav-right { display: none; }
   .nav-toggle { display: flex; }
   .header-inner { grid-template-columns: auto 1fr auto; }
-  .logo { justify-self: start; }
+  .logo { justify-self: start; gap: 0; }
+  .logo-word { display: none; }
+  .logo-img { height: 48px; }
+  .hero-swap { font-size: 1.1em; }
+  .testimonial-arrow { display: none; }
   .features-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .stack-card-panel { width: 100%; padding: 32px 26px; }
