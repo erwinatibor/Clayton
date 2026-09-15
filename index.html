@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ink &amp; Pierce — Tattoo &amp; Piercing Studio</title>
+<meta name="description" content="Ink & Pierce — custom tattoos, piercings and personalised body art from an award winning studio.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700;800&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <nav class="nav-left" aria-label="Primary navigation left">
+      <a href="#home" class="nav-link active" data-nav>Home</a>
+      <a href="#about" class="nav-link" data-nav>About</a>
+    </nav>
+
+    <a href="#home" class="logo" aria-label="Clayton Skin Art 7100 home">
+      <span class="logo-word">CLAYTON SKIN</span>
+      <img src="images/logo.svg" alt="Clayton Skin Art 7100" class="logo-img">
+      <span class="logo-word">ART 7100</span>
+    </a>
+
+    <nav class="nav-right" aria-label="Primary navigation right">
+      <a href="#services" class="nav-link" data-nav>Services</a>
+      <a href="#contact" class="nav-link" data-nav>Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" data-nav>Home</a>
+    <a href="#about" data-nav>About</a>
+    <a href="#services" data-nav>Services</a>
+    <a href="#contact" data-nav>Contact</a>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Two tattoo artists working in the Ink & Pierce studio">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content container">
+      <h1 class="hero-heading">
+        <span class="hero-line">THE BEST</span>
+        <span class="hero-swap" aria-label="Tattoo Studio">
+          <span class="hero-swap-word is-visible" data-word="TATTOO">TATTOO</span>
+          <span class="hero-swap-word" data-word="STUDIO">STUDIO</span>
+        </span>
+      </h1>
+      <p class="hero-text">
+        Bold ink, precision piercings, and one-of-a-kind artistry — Clayton Skin Art 7100 turns your story into a piece you'll wear for life.
+      </p>
+      <a href="#contact" class="btn btn-primary">Connect Now</a>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES MARQUEE ============ -->
+  <div class="marquee" id="services">
+    <div class="marquee-track">
+      <span class="marquee-item">Full-Body Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Lettering &amp; Script Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span class="marquee-item">Full-Body Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Lettering &amp; Script Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT 1 ============ -->
+  <section class="split-section" id="about">
+    <div class="container split-inner">
+      <div class="split-text">
+        <h2 class="section-heading">TRANSFORMING INK &amp; METAL INTO UNIQUE STORIES</h2>
+        <p class="section-copy">
+          We create custom tattoo and metal art pieces that blend craftsmanship, creativity, and personal meaning. Every design is made to reflect your unique story with precision and style.
+        </p>
+        <a href="#gallery" class="btn btn-outline">Tour Our Studio</a>
+      </div>
+      <div class="split-media">
+        <img src="images/about-portrait.jpg" alt="Tattooed client portrait surrounded by flowers">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT 2 (reversed) ============ -->
+  <section class="split-section split-reverse">
+    <div class="container split-inner">
+      <div class="split-media">
+        <img src="images/about-tour.jpg" alt="Tattoo artist sketching a custom design on a tablet">
+      </div>
+      <div class="split-text">
+        <h2 class="section-heading">PERSONALISED INK &amp; PIERCINGS TO MATCH YOUR STYLE</h2>
+        <p class="section-copy">
+          Lorem ipsum dolor sit amet consectetur. Consectetur nulla donec luctus donec duis. Vitae gravida tempor nunc nisl habitant vitae commodo mattis. Eget auctor tortor amet consectetur.
+        </p>
+        <a href="#services-grid" class="btn btn-outline">Explore More Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FULL WIDTH BAND ============ -->
+  <section class="fullwidth-band">
+    <img src="images/fullwidth-band.jpg" alt="Close up of tattooed forearms">
+  </section>
+
+  <!-- ============ STACKING CARDS ============ -->
+  <section class="stack-section">
+    <div class="stack-card" style="--stack-index:0;">
+      <div class="stack-card-inner">
+        <div class="stack-card-bg">
+          <img src="images/stack-bold.jpg" alt="Close up of a bold chest and neck tattoo">
+        </div>
+        <div class="stack-card-panel">
+          <h3 class="stack-heading"><em>Bold</em> and<br>Meaningful</h3>
+          <p class="section-copy">Lorem ipsum dolor sit amet, Pellentesque risus ante, auctor at mi elementum, cursus pellentesque odio.</p>
+          <div class="stack-thumb">
+            <img src="images/stack-bold-thumb.jpg" alt="Portrait of a studio artist">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stack-card" style="--stack-index:1;">
+      <div class="stack-card-inner">
+        <div class="stack-card-bg">
+          <img src="images/stack-couple.jpg" alt="Tattoo stencil sketch on skin">
+        </div>
+        <div class="stack-card-panel">
+          <h3 class="stack-heading">On Demand<br>Couple Tattoo</h3>
+          <p class="section-copy">Lorem ipsum dolor sit amet, Pellentesque risus ante, auctor at mi elementum, cursus pellentesque odio.</p>
+          <div class="stack-thumb">
+            <img src="images/stack-couple-thumb.jpg" alt="Forearm sleeve tattoo close up">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats-section">
+    <div class="container stats-inner">
+      <div class="stats-media">
+        <img src="images/stats-portrait.jpg" alt="Portrait of a studio client with red hair">
+      </div>
+      <div class="stats-list">
+        <div class="stat-row">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years Of Experience</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-number">9K+</span>
+          <span class="stat-label">Satisfied Clients</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-number">10</span>
+          <span class="stat-label">Studios In Neighbour</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE CARDS ============ -->
+  <section class="features-section" id="services-grid">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="8" y="6" width="24" height="34" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M13 12h14M13 18h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M22 26c4-3 9-1 9 4-4 1-7 4-9 8-2-4-5-7-9-8 0-5 5-7 9-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="feature-title">Trendy Tattoo</h3>
+          <p class="feature-copy">Lorem ipsum dolor sit amet, at mi elementum pellentesque odio.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 30c8-2 14-8 16-18 6 2 10 8 8 16-2 8-10 12-18 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="34" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <h3 class="feature-title">Experts In Piercing</h3>
+          <p class="feature-copy">Lorem ipsum dolor sit amet, at mi elementum pellentesque odio.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="20" width="20" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M26 23h6l6-3v10l-6-3h-6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M12 20v-4M18 20v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h3 class="feature-title">Latest Equipment</h3>
+          <p class="feature-copy">Lorem ipsum dolor sit amet, at mi elementum pellentesque odio.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="feature-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M10 28c0-8 6-14 14-14s14 6 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <rect x="6" y="27" width="8" height="12" rx="3" stroke="currentColor" stroke-width="2"/>
+            <rect x="34" y="27" width="8" height="12" rx="3" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <h3 class="feature-title">Personalised Services</h3>
+          <p class="feature-copy">Lorem ipsum dolor sit amet, at mi elementum pellentesque odio.</p>
+        </div>
+      </div>
+
+      <div class="features-cta">
+        <a href="#contact" class="btn btn-outline">Check Artist Availability</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonial-section">
+    <div class="testimonial-bg">
+      <img src="images/testimonial-bg.jpg" alt="Close up of a tattoo artist at work">
+    </div>
+    <div class="container testimonial-inner">
+      <h2 class="section-heading center">TESTIMONIALS</h2>
+
+      <div class="testimonial-slider">
+        <button class="testimonial-arrow prev" id="testimonialPrev" aria-label="Previous testimonial">&#8592;</button>
+
+        <div class="testimonial-track" id="testimonialTrack">
+          <blockquote class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&#8221;</span>
+            <p>Lorem ipsum dolor sit amet consectetur. Consectetur nulla donec luctus donec duis. Vitae gravida tempor nunc nisl habitant vitae commodo mattis. Eget auctor tortor amet consectetur.</p>
+            <cite>Franecki-Mckenzie</cite>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&#8221;</span>
+            <p>Lorem ipsum dolor sit amet consectetur. Nulla donec luctus donec duis vitae gravida tempor. Nisl habitant vitae commodo mattis eget auctor tortor amet.</p>
+            <cite>Jonasson-Reilly</cite>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&#8221;</span>
+            <p>Lorem ipsum dolor sit amet consectetur. Vitae gravida tempor nunc nisl habitant. Commodo mattis eget auctor tortor amet consectetur adipiscing elit.</p>
+            <cite>Osinski-Bauch</cite>
+          </blockquote>
+        </div>
+
+        <button class="testimonial-arrow next" id="testimonialNext" aria-label="Next testimonial">&#8594;</button>
+      </div>
+
+      <div class="testimonial-dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <h2 class="section-heading center">RECENT CREATIONS</h2>
+      <p class="section-copy center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum quis enim eget pharetra.</p>
+
+      <div class="gallery-grid">
+        <img src="images/gallery-01.jpg" alt="Recent tattoo work 1" class="gallery-item">
+        <img src="images/gallery-02.jpg" alt="Recent tattoo work 2" class="gallery-item">
+        <img src="images/gallery-03.jpg" alt="Recent tattoo work 3" class="gallery-item">
+        <img src="images/gallery-04.jpg" alt="Recent tattoo work 4" class="gallery-item">
+        <img src="images/gallery-05.jpg" alt="Recent tattoo work 5" class="gallery-item">
+        <img src="images/gallery-06.jpg" alt="Recent tattoo work 6" class="gallery-item">
+        <img src="images/gallery-07.jpg" alt="Recent tattoo work 7" class="gallery-item">
+        <img src="images/gallery-08.jpg" alt="Recent tattoo work 8" class="gallery-item">
+        <img src="images/gallery-09.jpg" alt="Recent tattoo work 9" class="gallery-item">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES MARQUEE (repeat) ============ -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Full-Body Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Lettering &amp; Script Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Full-Body Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Lettering &amp; Script Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+    </div>
+  </div>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact-section" id="contact">
+    <div class="contact-bg">
+      <img src="images/contact-bg.jpg" alt="Gloved hands performing a tattoo session">
+    </div>
+    <div class="container contact-inner">
+      <h2 class="section-heading center">CONTACT NOW</h2>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-field">
+            <label for="femail">Your Email</label>
+            <input type="email" id="femail" name="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fphone">Your Phone Number</label>
+            <input type="tel" id="fphone" name="phone" placeholder="Your Phone Number">
+          </div>
+          <div class="form-field">
+            <label for="fservice">Select Service</label>
+            <select id="fservice" name="service">
+              <option value="">Select Service...</option>
+              <option value="tattoo">Custom Tattoo</option>
+              <option value="piercing">Piercing</option>
+              <option value="touchup">Touch Up</option>
+              <option value="consult">Consultation</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field form-field-full">
+            <label for="fmessage">Your Message</label>
+            <textarea id="fmessage" name="message" rows="4" placeholder="Your Message"></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <nav class="footer-col" aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services-grid">Services</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-word">CLAYTON SKIN</span>
+        <img src="images/logo.svg" alt="Clayton Skin Art 7100" class="logo-img">
+        <span class="logo-word">ART 7100</span>
+      </a>
+      <p>Lorem ipsum dolor sit amet consectetur. Quisque accumsan nunc eget eu.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14v-1.5c0-.4.3-.7.7-.7Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.2" stroke="currentColor" stroke-width="1.6"/><circle cx="16.6" cy="7.4" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="X (Twitter)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="9" width="3" height="10" fill="currentColor"/><circle cx="5.5" cy="5.5" r="1.6" fill="currentColor"/><path d="M11 19v-6c0-1.7 1.3-3 3-3s3 1.3 3 3v6" stroke="currentColor" stroke-width="1.6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-col footer-col-right" aria-label="Footer links">
+      <a href="#">License</a>
+      <a href="#">Changelog</a>
+      <a href="#">Styleguide</a>
+    </nav>
+  </div>
+
+  <div class="marquee marquee-footer">
+    <div class="marquee-track">
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Full-Body Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Lettering &amp; Script Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Custom Tattoo Design</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Black &amp; Gray Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+      <span class="marquee-item">Minimalist Tattoos</span><span class="marquee-sep" aria-hidden="true">✦</span>
+    </div>
+  </div>
+
+  <p class="footer-bottom">© 2026 Clayton Skin Art 7100. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
